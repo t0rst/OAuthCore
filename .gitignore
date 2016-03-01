@@ -6,4 +6,6 @@ xcuserdata/
 *.mode2v3
 *.pbxuser
 
+Carthage/Build
+
 .DS_Store

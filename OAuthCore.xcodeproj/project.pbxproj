@@ -10,16 +10,12 @@
 		AE1A749D1C8AE55300FB26FE /* OAuthCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1A749A1C8AE54C00FB26FE /* OAuthCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE1A749E1C8AE55400FB26FE /* OAuthCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1A749A1C8AE54C00FB26FE /* OAuthCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA165231C861D1B00D284ED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AEA1651C1C861D1B00D284ED /* LICENSE */; };
-		AEA165241C861D1B00D284ED /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA1651D1C861D1B00D284ED /* NSData+Base64.h */; };
-		AEA165251C861D1B00D284ED /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA1651E1C861D1B00D284ED /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AEA165261C861D1B00D284ED /* OAuth+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA1651F1C861D1B00D284ED /* OAuth+Additions.h */; };
 		AEA165271C861D1B00D284ED /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA165201C861D1B00D284ED /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AEA165281C861D1B00D284ED /* OAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA165211C861D1B00D284ED /* OAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA165291C861D1B00D284ED /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA165221C861D1B00D284ED /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AEA165371C86227800D284ED /* OAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA165211C861D1B00D284ED /* OAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA165381C86228300D284ED /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA165221C861D1B00D284ED /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AEA165391C86228D00D284ED /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA1651D1C861D1B00D284ED /* NSData+Base64.h */; };
-		AEA1653A1C86228D00D284ED /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA1651E1C861D1B00D284ED /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AEA1653B1C86228D00D284ED /* OAuth+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA1651F1C861D1B00D284ED /* OAuth+Additions.h */; };
 		AEA1653C1C86228D00D284ED /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA165201C861D1B00D284ED /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AEA1653D1C86229300D284ED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AEA1651C1C861D1B00D284ED /* LICENSE */; };
@@ -31,8 +27,6 @@
 		AE1A749C1C8AE54C00FB26FE /* OAuthCoreFramework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OAuthCoreFramework.plist; sourceTree = "<group>"; };
 		AEA165111C8617CC00D284ED /* OAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA1651C1C861D1B00D284ED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AEA1651D1C861D1B00D284ED /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		AEA1651E1C861D1B00D284ED /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		AEA1651F1C861D1B00D284ED /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
 		AEA165201C861D1B00D284ED /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
 		AEA165211C861D1B00D284ED /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
@@ -72,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				AEA1651C1C861D1B00D284ED /* LICENSE */,
-				AEA1651D1C861D1B00D284ED /* NSData+Base64.h */,
-				AEA1651E1C861D1B00D284ED /* NSData+Base64.m */,
 				AEA1651F1C861D1B00D284ED /* OAuth+Additions.h */,
 				AEA165201C861D1B00D284ED /* OAuth+Additions.m */,
 				AEA165211C861D1B00D284ED /* OAuthCore.h */,
@@ -99,7 +91,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA165241C861D1B00D284ED /* NSData+Base64.h in Headers */,
 				AE1A749D1C8AE55300FB26FE /* OAuthCoreFramework.h in Headers */,
 				AEA165261C861D1B00D284ED /* OAuth+Additions.h in Headers */,
 				AEA165281C861D1B00D284ED /* OAuthCore.h in Headers */,
@@ -110,7 +101,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA165391C86228D00D284ED /* NSData+Base64.h in Headers */,
 				AE1A749E1C8AE55400FB26FE /* OAuthCoreFramework.h in Headers */,
 				AEA1653B1C86228D00D284ED /* OAuth+Additions.h in Headers */,
 				AEA165371C86227800D284ED /* OAuthCore.h in Headers */,
@@ -217,7 +207,6 @@
 			files = (
 				AEA165291C861D1B00D284ED /* OAuthCore.m in Sources */,
 				AEA165271C861D1B00D284ED /* OAuth+Additions.m in Sources */,
-				AEA165251C861D1B00D284ED /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +216,6 @@
 			files = (
 				AEA165381C86228300D284ED /* OAuthCore.m in Sources */,
 				AEA1653C1C86228D00D284ED /* OAuth+Additions.m in Sources */,
-				AEA1653A1C86228D00D284ED /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
